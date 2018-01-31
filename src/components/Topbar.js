@@ -13,7 +13,7 @@ export default class Topbar extends Component {
     return (
       <div className='Topbar'>
         <Header as='h2' className='Header' stackable>
-          <Image circular src='http://res.cloudinary.com/saavy1/image/upload/v1517409225/jaysonproshot_vcbkdd.jpg' size='large' />
+          <Image circular src='https://res.cloudinary.com/saavy1/image/upload/v1517409225/jaysonproshot_vcbkdd.jpg' size='large' />
           <Header.Content>
             Jayson Saavedra
             <Header.Subheader>
