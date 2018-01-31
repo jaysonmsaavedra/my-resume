@@ -5,9 +5,8 @@ export default class Contact extends Component {
     return(
       <div>
         <h1>How to Contact Me!</h1>
+        <h3>Jayson Saavedra</h3>
         <ul>
-          <li>First Name - Jayson</li>
-          <li>Last Name - Saavedra</li>
           <li>Phone Number - (760) 213-5813</li>
           <li>Email Address - jaysonmsaavedra@gmail.com</li>
         </ul>
