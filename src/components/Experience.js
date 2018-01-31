@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
-import { List }             from 'semantic-ui-react'
+import { List, Header }             from 'semantic-ui-react'
 
 export default class Experience extends Component {
   render() {
     return(
       <div>
+        <Header as='h1'>Professional Experience</Header>
         <List>
           <List.Item>
             <List.Header as='h3'>DealerSocket, Inc.</List.Header>
