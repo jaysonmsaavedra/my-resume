@@ -11,8 +11,8 @@ export default class Examples extends Component {
 
     return (
       <Grid>
-        <Grid.Column width={2}>
-          <Menu fluid vertical tabular>
+        <Grid.Column width={1}>
+          <Menu vertical fluid tabular >
             <Menu.Item name='demo1' active={activeItem === 'demo1'} onClick={this.handleItemClick} />
             <Menu.Item name='demo2' active={activeItem === 'demo2'} onClick={this.handleItemClick} />
             <Menu.Item name='demo3' active={activeItem === 'demo3'} onClick={this.handleItemClick} />
@@ -20,7 +20,7 @@ export default class Examples extends Component {
           </Menu>
         </Grid.Column>
 
-        <Grid.Column stretched width={14}>
+        <Grid.Column stretched width={15}>
           <Segment>
             This is an stretched grid column. This segment will always match the tab height
           </Segment>

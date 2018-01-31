@@ -15,7 +15,7 @@ export default class AppNavbar extends Component {
 
     return (
       <div className='AppNavbar'>
-        <Menu className='Menu' pointing secondary>
+        <Menu className='Menu' stackable pointing secondary>
           <Menu.Item className='menuItem' as={Link} to='/' name='about' active={activeItem === 'about'} onClick={this.handleItemClick} />
           <Menu.Item className='menuItem' as={Link} to='/skills' name='skills' active={activeItem === 'skills'} onClick={this.handleItemClick} />
           <Menu.Item className='menuItem' as={Link} to='/education' name='education' active={activeItem === 'education'} onClick={this.handleItemClick} />
