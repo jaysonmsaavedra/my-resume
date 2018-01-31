@@ -6,7 +6,7 @@ import { Menu, Segment, Image, Container }    from 'semantic-ui-react'
 import { Link }             from 'react-router-dom'
 
 export default class AppNavbar extends Component {
-  state =  { activeItem: 'about'}
+  state =  { activeItem: 'home'}
 
   handleItemClick = (e, { name }) => this.setState({ activeItem: name })
 
@@ -16,7 +16,7 @@ export default class AppNavbar extends Component {
     return (
       <div className='AppNavbar'>
         <Menu className='Menu' stackable pointing secondary>
-          <Menu.Item className='menuItem' as={Link} to='/' name='about' active={activeItem === 'about'} onClick={this.handleItemClick} />
+          <Menu.Item className='menuItem' as={Link} to='/' name='home' active={activeItem === 'home'} onClick={this.handleItemClick} />
           <Menu.Item className='menuItem' as={Link} to='/skills' name='skills' active={activeItem === 'skills'} onClick={this.handleItemClick} />
           <Menu.Item className='menuItem' as={Link} to='/education' name='education' active={activeItem === 'education'} onClick={this.handleItemClick} />
           <Menu.Item className='menuItem' as={Link} to='/experience' name='experience' active={activeItem === 'experience'} onClick={this.handleItemClick} />
