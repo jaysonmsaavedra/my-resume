@@ -20,7 +20,6 @@ export default class AppNavbar extends Component {
           <Menu.Item className='menuItem' as={Link} to='/skills' name='skills' active={activeItem === 'skills'} onClick={this.handleItemClick} />
           <Menu.Item className='menuItem' as={Link} to='/education' name='education' active={activeItem === 'education'} onClick={this.handleItemClick} />
           <Menu.Item className='menuItem' as={Link} to='/experience' name='experience' active={activeItem === 'experience'} onClick={this.handleItemClick} />
-          <Menu.Item className='menuItem' as={Link} to='/examples' name='examples' active={activeItem === 'examples'} onClick={this.handleItemClick} />
         </Menu>
 
         <Segment>

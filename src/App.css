@@ -31,3 +31,25 @@
   flex-direction: column;
   justify-content: flex-start;
 }
+
+.List {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 70vh;
+}
+
+.AboutMe {
+  order: 1;
+  flex-grow: 1;
+}
+
+.MyInterests {
+  order: 2;
+  flex-grow: 1;
+}
+
+.AboutWebsite {
+  order: 3;
+  flex-grow: 1;
+}
