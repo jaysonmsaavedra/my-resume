@@ -28,7 +28,7 @@ export default class Experience extends Component {
   }
 
   getJobInfo() {
-    axios.get('http://localhost:3006/api/experience')
+    axios.get('http://487057627162.dkr.ecr.us-west-2.amazonaws.com/rest_api:3006/api/experience')
       .then(res => {
         this.setState({
           company1: res.data.data[0].company,
