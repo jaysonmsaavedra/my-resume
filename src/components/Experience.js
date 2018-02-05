@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { List, Header, Input }             from 'semantic-ui-react'
-import axios from 'axios'
 
 export default class Experience extends Component {
 

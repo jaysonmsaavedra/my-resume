@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Image, Segment, Header, Responsive, List } from 'semantic-ui-react'
-import axios from 'axios'
 
 export default class Topbar extends Component {
   handleOnUpdate = (e, { width }) => this.setState({ width })
