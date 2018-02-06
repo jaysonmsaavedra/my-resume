@@ -28,14 +28,6 @@ export default class Home extends Component {
               work.
             </List.Content>
           </List.Item>
-          <List.Item className="ListItem AboutWebsite">
-            <hr />
-            <List.Header as='h3'>About this Website</List.Header>
-            <List.Content>
-              This page is built using ReactJS and it's being deployed on Netlify. The backend is a
-              Docker image running a NodeJS server built with Express being hosted on an AWS EC2 instance.
-            </List.Content>
-          </List.Item>
         </List>
       </div>
     )
